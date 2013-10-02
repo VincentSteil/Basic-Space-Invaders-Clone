@@ -1,0 +1,25 @@
+Dependencies for Project 'Logo', Target 'Logo': (DO NOT MODIFY !)
+F (.\Startup.s)(0x50BE8EBC)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\rit128x96x4.c)(0x50BF4E4E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "rit128x96x4.o" --omf_browse "rit128x96x4.crf" --depend "rit128x96x4.d")
+I (..\inc/hw_ssi.h)(0x4C6185EC)
+I (..\inc/hw_memmap.h)(0x4C6185EC)
+I (..\inc/hw_sysctl.h)(0x4C6185EC)
+I (..\inc/hw_types.h)(0x4C6185EC)
+F (.\logo.c)(0x50BE8E9C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "logo.o" --omf_browse "logo.crf" --depend "logo.d")
+I (rit128x96x4.h)(0x50BE80A4)
+F (.\SpaceInvaders.c)(0x50C23403)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "spaceinvaders.o" --omf_browse "spaceinvaders.crf" --depend "spaceinvaders.d")
+I (..\inc\hw_types.h)(0x4C6185EC)
+F (.\logo.h)(0x50BE8E9E)()
+F (.\ADCSWTrigger.c)(0x50BF3806)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "adcswtrigger.o" --omf_browse "adcswtrigger.crf" --depend "adcswtrigger.d")
+I (..\inc\lm3s1968.h)(0x4C6185EC)
+I (PLL.h)(0x50AABCE5)
+F (.\PLL.c)(0x50AAAA32)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "pll.o" --omf_browse "pll.crf" --depend "pll.d")
+F (.\SysTickInts.c)(0x50AAC45E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "systickints.o" --omf_browse "systickints.crf" --depend "systickints.d")
+I (..\inc\hw_types.h)(0x4C6185EC)
+F (.\PLL.h)(0x50AACAF5)()
+F (.\main.c)(0x50C26CC7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (..\inc\hw_types.h)(0x4C6185EC)
+F (.\DAC.c)(0x50C2445F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "dac.o" --omf_browse "dac.crf" --depend "dac.d")
+I (DAC.h)(0x50C2364F)
+I (..\inc\hw_types.h)(0x4C6185EC)
+F (..\driverlib\rvmdk\driverlib.lib)(0x00000000)()

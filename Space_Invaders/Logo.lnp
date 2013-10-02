@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup.o" "rit128x96x4.o" "logo.o" "spaceinvaders.o" "adcswtrigger.o" "pll.o" "systickints.o" "main.o" "dac.o" "C:\Dropbox\Uni\Year 3\Intro To Embedded Systems\uVision\driverlib\rvmdk\driverlib.lib" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Logo.map" -o Logo.axf
